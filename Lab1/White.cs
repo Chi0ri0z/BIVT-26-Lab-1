@@ -7,7 +7,7 @@ namespace Lab1
             bool answer = false;
 
             // code here
-
+            answer = d > 0;
             // end
 
             return answer;
@@ -17,7 +17,7 @@ namespace Lab1
             bool answer = false;
 
             // code here
-
+            answer = (n % 2 == 0)
             // end
 
             return answer;
@@ -27,7 +27,7 @@ namespace Lab1
             int answer = 0;
 
             // code here
-
+            answer = Math.Max(a, b);
             // end
 
             return answer;
@@ -37,7 +37,7 @@ namespace Lab1
             double answer = 0;
 
             // code here
-
+            answer = Math.Abs(d) < Math.Abs(f) ? d : f;
             // end
 
             return answer;
@@ -47,7 +47,7 @@ namespace Lab1
             double answer = 0;
 
             // code here
-
+            answer = Math.Abs(x) > 1 ? 1 : x
             // end
 
             return answer;

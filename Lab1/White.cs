@@ -1,3 +1,5 @@
+using System;
+
 namespace Lab1
 {
     public class White
@@ -57,7 +59,7 @@ namespace Lab1
             bool answer = false;
 
             // code here
-
+            answer = Math.Abs(x * x + y * y - r * r) <= 1e-4;
             // end
 
             return answer;
@@ -68,7 +70,9 @@ namespace Lab1
             bool answer = false;
 
             // code here
-
+            int s = n * n;
+            answer = (s - n > 2*n) ? (n % 2 == 0) : false;
+            
             // end
 
             return answer;
@@ -78,7 +82,7 @@ namespace Lab1
             bool answer = false;
 
             // code here
-
+            answer = (L / 10 <= 3) && ((T + M) => 5) && (M % 2 == 0);
             // end
 
             return answer;

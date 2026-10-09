@@ -78,11 +78,11 @@ namespace Lab1
         public bool Task8(double L, int T, int M)
         {
             bool answer = false;
-
+            
             // code here
             answer = (L / 10 <= 3) && ((T + M) >= 5) && ((M % 2) == 0);
             // end
-
+            
             return answer;
         }
     }
